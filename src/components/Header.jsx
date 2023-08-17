@@ -9,7 +9,7 @@ function Header() {
         </div>
         <div>
             <div>
-                <h1>Counting nutritions doesn't have to be complicated</h1>
+                <h1 className='font-serif'>Counting nutritions doesn't have to be complicated</h1>
             </div>
             <div>
                 <button>Count Nutritions</button>

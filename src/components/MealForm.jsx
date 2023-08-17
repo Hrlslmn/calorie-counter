@@ -1,10 +1,7 @@
-import { useState } from 'react';
 import Axios from 'axios'
 
-function MealForm() {  
-  const [meal,setMeal]=useState("")
-  const [calories,setCalories]=useState("")
-  const [name,setName]=useState("")
+function MealForm(props) {  
+  const {setCalories,setName,setMeal,meal} = props
   //Fetch API
   const fetchData=()=>{
     Axios.get(`https://api.api-ninjas.com/v1/nutrition?query=${meal}`, {
@@ -20,9 +17,9 @@ function MealForm() {
     <>
         <label>Enter Meal:</label>
         <input type="text" onChange={(e)=>{setMeal(e.target.value)}}/>
-        <button onClick={fetchData}>Submit</button>
-        <h2>Meal: {name}</h2>
-        <h3>Calories: {calories}</h3>
+        <div>
+            <button onClick={fetchData}>Submit</button>
+        </div>
     </>
   )
 }

@@ -1,10 +1,11 @@
 import React from 'react'
 
-function DisplayInfo() {
+function DisplayInfo(props) {
+  const{name,calories} = props
   return (
     <div>
-        <h2>Meal: </h2>
-        <h3>Calories: </h3>
+        <h2>Meal: {name}</h2>
+        <h3>Calories: {calories} </h3>
     </div>
   )
 }
