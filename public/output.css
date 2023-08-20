@@ -588,6 +588,7 @@ video {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .absolute {
   position: absolute;
 }
@@ -963,6 +964,9 @@ video {
 =======
 .bg-red-400 {
 >>>>>>> parent of 7890054 (Revert "Revert "update"")
+=======
+.bg-red-400 {
+>>>>>>> parent of cd9a7b3 (update)
   --tw-bg-opacity: 1;
   background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
@@ -975,6 +979,7 @@ video {
 .font-serif {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1556,3 +1561,5 @@ video {
 >>>>>>> parent of cd9a7b3 (update)
 =======
 >>>>>>> parent of 7890054 (Revert "Revert "update"")
+=======
+>>>>>>> parent of cd9a7b3 (update)
