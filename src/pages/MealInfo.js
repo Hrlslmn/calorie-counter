@@ -1,6 +1,6 @@
 import React from 'react'
 import MealForm from '../components/MealForm'
-
+import DisplayInfo from '../components/DisplayInfo'
 import { useState } from 'react'
 
 function MealInfo() {
@@ -10,7 +10,10 @@ function MealInfo() {
   return (
     <div>
         <div>
-            <MealForm setCalories={setCalories} setName={setName} setMeal={setMeal} meal={meal} calories={calories} name={name} />
+            <MealForm setCalories={setCalories} setName={setName} setMeal={setMeal} meal={meal} />
+        </div>
+        <div>
+            <DisplayInfo calories={calories} name={name}/>
         </div>
     </div>
   )
