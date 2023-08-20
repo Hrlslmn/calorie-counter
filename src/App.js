@@ -1,21 +1,31 @@
 import './App.css';
-import { BrowserRouter as Router , Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import MealInfo from './pages/MealInfo';
-import Navbar from './components/Navbar';
+import { BrowserRouter , Routes, Route } from 'react-router-dom';
+import MealInfo from './pages/MealInfo'
+import MealList from './pages/MealList';
+import Superfood from './pages/Superfood';
+import Plantbased from './pages/Plantbased';
+import Balanced from './pages/Balanced';
+import Gut from './pages/Gut';
+import Heart from './pages/Heart';
 
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-        <Router>
-          <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/counter" element={<MealInfo/>}/>
-          </Routes>
-        </Router>
+    <BrowserRouter>
+    <div className="App bg-slate-900">
+        <Routes>
+          <Route exact path="/" element={<Home/>}/>
+          <Route path="/counter" element={<MealInfo/>}/>
+          <Route path="/list" element={<MealList />}/>
+          <Route path="/superfood" element={<Superfood/>}/>
+          <Route path="/plantbased" element={<Plantbased/>}/>
+          <Route path="/balanced" element={<Balanced/>}/>
+          <Route path="/gut" element={<Gut/>}/>
+          <Route path="/heart" element={<Heart/>}/>
+        </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 
