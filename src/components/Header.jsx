@@ -7,6 +7,7 @@ function Header() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div className='relative'>
             <img src={header} alt="" className='border-b-4 border-yellow-400 w-full' />
             <div className='absolute md:bottom-[35%] md:left-[50px] left-[15px] bg-gray-800 bg-opacity-60 rounded-md bottom-[80px] md:mb-4'>
@@ -16,6 +17,8 @@ function Header() {
 >>>>>>> parent of cd9a7b3 (update)
 =======
 >>>>>>> parent of cd9a7b3 (update)
+=======
+>>>>>>> parent of 7890054 (Revert "Revert "update"")
         <div>
             <Navbar/>
         </div>
@@ -24,11 +27,14 @@ function Header() {
                 <h1 className='font-serif'>Counting nutritions doesn't have to be complicated</h1>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 7890054 (Revert "Revert "update"")
 =======
 >>>>>>> parent of cd9a7b3 (update)
 =======
 >>>>>>> parent of cd9a7b3 (update)
+=======
+>>>>>>> parent of 7890054 (Revert "Revert "update"")
             </div>
             <div>
                 <button>Count Nutritions</button>
