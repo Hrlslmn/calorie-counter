@@ -8,12 +8,14 @@ import Plantbased from './pages/Plantbased';
 import Balanced from './pages/Balanced';
 import Gut from './pages/Gut';
 import Heart from './pages/Heart';
+import Navbar from './components/Navbar';
 
 
 function App() {
   return (
     <BrowserRouter>
     <div className="App bg-slate-900">
+        <Navbar />
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route path="/counter" element={<MealInfo/>}/>

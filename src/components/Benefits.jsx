@@ -19,10 +19,10 @@ function Benefits() {
           </div>
 
           <div className="mt-7">
-            <h3 className="text-xl font-semibold text-yellow-400 group-hover:text-gray-600">
+            <h3 className="benefits-title">
             10 Superfoods for a Nutrient-Rich Diet
             </h3>
-            <p className="mt-3 text-gray-800 dark:text-gray-200 text-sm">
+            <p className="benefits-subtitle">
               Maintaining a healthy diet is essential for overall well-being...
             </p>
             <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
@@ -40,10 +40,10 @@ function Benefits() {
           </div>
 
           <div className="mt-7">
-            <h3 className="text-xl font-semibold text-yellow-400 group-hover:text-gray-600">
+            <h3 className="benefits-title">
               The Power of Plant-Based Proteins: Building Muscle the Healthy Way
             </h3>
-            <p className="mt-3 text-gray-800 dark:text-gray-200 text-sm">
+            <p className="benefits-subtitle">
             When it comes to building muscle, protein is essential...
             </p>
             <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
@@ -61,10 +61,10 @@ function Benefits() {
           </div>
 
           <div className="mt-7">
-            <h3 className="text-xl font-semibold text-yellow-400 group-hover:text-gray-600">
+            <h3 className="benefits-title">
               Balanced Nutrition: Creating Wholesome Meals for Weight Management
             </h3>
-            <p className="mt-3 text-gray-800 dark:text-gray-200 text-sm">
+            <p className="benefits-subtitle">
               Achieving and maintaining a healthy weight requires more than just counting calories...
             </p>
             <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
@@ -81,10 +81,10 @@ function Benefits() {
             <img className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://images.unsplash.com/photo-1498604214351-227898deb373?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGd1dCUyMGhlYWx0aHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt=""/>
           </div>
           <div className="mt-7">
-            <h3 className="text-xl font-semibold text-yellow-400 group-hover:text-gray-600">
+            <h3 className="benefits-title">
               The Gut-Health Connection: Foods for a Happy Digestive System
             </h3>
-            <p className="mt-3 text-gray-800 dark:text-gray-200 text-sm">
+            <p className="benefits-subtitle">
               A healthy gut is essential for overall well-being...
             </p>
             <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
@@ -102,10 +102,10 @@ function Benefits() {
           </div>
 
           <div className="mt-7">
-            <h3 className="text-xl font-semibold text-yellow-400 group-hover:text-gray-600">
+            <h3 className="benefits-title">
               Heart-Healthy Diet: Foods for Cardiovascular Wellness
             </h3>
-            <p className="mt-3 text-gray-800 dark:text-gray-200 text-sm">
+            <p className="benefits-subtitle">
             Maintaining a heart-healthy diet is crucial for preventing cardiovascular diseases and promoting overall heart wellness...
             </p>
             <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
