@@ -34,9 +34,6 @@ function MealForm(props) {
           Back to homepage
         </Link>
       </div>
-      <div className='md:justify-self-start justify-self-center '>
-        <img src="https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bnV0cml0aW9ufGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" className='border-t-2 border-b-2 sm:border-l-2 sm:border-r-2 border-black'/>
-      </div>
     </div>
   )
 }
