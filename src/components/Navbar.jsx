@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import logo from '../images/logo.png'
 import { useState } from 'react'
 
-
+  
 function Navbar() {
   const [toggle,setToggle]=useState(false)
   return (
